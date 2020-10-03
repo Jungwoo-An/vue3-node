@@ -1,0 +1,22 @@
+{
+  "name": "vue3-node",
+  "version": "1.0.0",
+  "description": "Vue3 (SFC) execution environment for node.js",
+  "keywords": [
+    "vue",
+    "vue3",
+    "vue3-node",
+    "vue-node",
+    "node-vue",
+    "vue-require",
+    "require-vue"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jungwoo-An/vue3-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jungwoo-An/vue3-node/issues"
+  }
+}
