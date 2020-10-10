@@ -11,6 +11,9 @@
     "vue-require",
     "require-vue"
   ],
+  "scripts": {
+    "build": "tsc --outDir ./dist"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
