@@ -1,6 +1,6 @@
 {
   "name": "vue3-node",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "Vue3 (SFC) execution environment for node.js",
   "keywords": [
     "vue",
@@ -11,9 +11,12 @@
     "vue-require",
     "require-vue"
   ],
+  "main": "./dist/vue3-node.js",
+  "module": "./dist/vue3-node.es.js",
   "scripts": {
     "build": "rollup --config --environment NODE_ENV:production",
-    "e2e": "yarn build && TS_NODE_PROJECT=./tsconfig.e2e.json TS_NODE_FILES=true mocha --require ./dist/vue3-node.js --require ts-node/register ./e2e/specs/**/*spec.ts"
+    "e2e": "yarn build && TS_NODE_PROJECT=./tsconfig.e2e.json TS_NODE_FILES=true mocha --require ./dist/vue3-node.js --require ts-node/register ./e2e/specs/**/*spec.ts",
+    "prepublish": "yarn build"
   },
   "license": "MIT",
   "repository": {
