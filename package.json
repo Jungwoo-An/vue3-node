@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "build": "rollup --config --environment NODE_ENV:production",
-    "e2e": "yarn build && TS_NODE_PROJECT=./tsconfig.json TS_NODE_FILES=true mocha --require ./dist/vue3-node.js --require ts-node/register ./e2e/specs/**/*spec.ts"
+    "e2e": "yarn build && TS_NODE_PROJECT=./tsconfig.e2e.json TS_NODE_FILES=true mocha --require ./dist/vue3-node.js --require ts-node/register ./e2e/specs/**/*spec.ts"
   },
   "license": "MIT",
   "repository": {
@@ -32,7 +32,7 @@
     "@types/node": "^14.11.2",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
-    "@vue/test-utils": "^2.0.0-beta.6",
+    "@vue/test-utils": "^2.0.0-beta.7",
     "chai": "^4.2.0",
     "eslint": "^7.10.0",
     "eslint-config-airbnb-base": "^14.2.0",
