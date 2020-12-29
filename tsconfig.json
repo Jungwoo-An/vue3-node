@@ -8,5 +8,5 @@
     "allowSyntheticDefaultImports": true,
     "typeRoots": ["node_modules/@types"]
   },
-  "include": ["@types/**/*.ts", "e2e/**/*.ts"]
+  "include": ["@types/**/*.ts", "tests/**/*.ts"]
 }
