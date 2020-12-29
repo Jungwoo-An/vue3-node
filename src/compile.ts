@@ -41,6 +41,9 @@ function compile({
     ${compiledScript};
     ${compiledTemplate};
     exports.default.render = render;
+    module.exports = {
+      ...exports.default,
+    };
   `;
 }
 
