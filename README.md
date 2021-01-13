@@ -29,8 +29,6 @@ via Yarn
 $ npm install vue3-node
 ```
 
-Insert your top level code after installation
-
 ## Usage
 
 Insert vue3-node into preload script
@@ -49,3 +47,7 @@ Programmatically
 ```ts
 require('vue3-node');
 ```
+
+## Feature Planning
+
+- [ ] Sourcemap
